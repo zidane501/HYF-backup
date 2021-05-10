@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/adyen-header-logo-green.svg">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <title>Adyen</title>
+</head>
+<body id="home" class="scrollspy">
+  <div class="left-div">
+
+  </div>
+  <div class="center-div">
+    <div class="navbar-fixed"> <!-- Materilize class makes the navbar follow the screeen-->
+        <nav class="white black-text no-shadow"> <!--Teal is materilize color class-->
+          <!-- <div class="container">  -->
+            <div id="nav-id" class="nav-wrapper black-text"> <!--Standard navbar markup-->
+              <a href="https://www.adyen.com/x  " class="brand-logo flex1" ><img src="img/adyen-header-logo-green.svg" alt="logo" width="150px" height="auto"></a>
+              <!--Burger icon for side-menu in navbar-->
+              <!-- <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>  -->
+              <ul class="left hide-on-med-and-down flex2">
+                <li>
+                  <!-- <a href="#solution">Our solution</a> -->
+                  <!-- Dropdown Trigger -->
+                  <a class='dropdown-trigger btn white  black-text no-shadow' href='#' data-target='dropdown1'>Our solution<i class="material-icons right">expand_more</i></a>
+
+                  <!-- Dropdown Structure -->
+                  <ul id='dropdown1' class='dropdown-content'>
+                      <li><a href="#!" >one</a></li>
+                      <li><a href="#!" >two</a></li>
+                      <li class="divider" tabindex="-1"></li>
+                      <li><a href="#!">three</a></li>
+                      <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                      <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#customers"> <p class="li-text">Customers</p></a>
+                </li>
+                <li>
+                  <a class='dropdown-trigger btn white  black-text no-shadow' href='#' data-target='dropdown1'>About us<i class="material-icons right">expand_more</i></a>
+                </li>
+                <li>
+                  <a class='dropdown-trigger btn white  black-text no-shadow' href='#' data-target='dropdown1'>Documentation<i class="material-icons right">expand_more</i></a>
+                </li>
+              </ul>
+
+              
+              <ul class="right hide-on-med-and-down flex3">
+                <li>
+                  <a href="#home"><i class="material-icons right">search</i></a>
+                </li>
+                <li>
+                  <a href="#search">Contact us</a>
+                </li>
+                <li>
+                  <a href="#popular">Log in</a>
+                </li>
+                <li>
+                  <a href="#gallery" class="btn green">Create an account</a>
+                </li>
+              </ul>
+            </div>
+          <!-- </div> -->
+        </nav>
+    </div>    
+    <!-- <div class="container"> -->
+      <div class="row">
+        <div class="col s8 ape">
+          <h1>Accept payments <br> everywhere</h1>
+        </div>
+      </div>
+    <!-- </div> -->
+  </div>
+
+  <div class="right-div">
+
+  </div>
+  <script>
+    //import M from 'materialize-css'
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.dropdown-trigger');
+      var instances = M.Dropdown.init(elems, {});
+    });
+//        $('.dropdown-trigger').dropdown();
+//        document.addEventListener('DOMContentLoaded', function() {
+//        const elems = document.querySelectorAll('.dropdown-trigger');
+//        const instances = M.Dropdown.init(elems, {});
+//        });
+//
+//        function Mostrar(enlace){
+//            console.log(enlace.innerHTML)
+//        }
+  </script>
+</body>
+</html>

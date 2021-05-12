@@ -11,8 +11,9 @@ body{
     /* box-sizing: border-box; */
 }
 .center-div{
-    width: 90%;
-    margin: auto;
+    width: 1263px;
+    margin: 0 auto;
+    border: solid 2px rgb(6, 6, 219); /* style, width, color */
     /* padding: 0 10% 0 10%; */
     /* flex-grow: 10; */
 }
@@ -22,9 +23,21 @@ body{
 .right-div{
     flex-grow: 1;
 } */
+nav{
+    width: 1263px;
+}
+nav ul li {
+    border: solid 2px rgb(247, 167, 167);
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
 nav ul li a{
     color: black;
-  }    
+    margin: 0;
+    padding: 0 10px 0 10px;
+  }
+
 .no-shadow{
     box-shadow: none!important;
 }
@@ -33,19 +46,48 @@ nav ul li a{
   } */
 .btn {
     text-transform: none;
+    
 }
 nav ul a.btn{
     margin: 0px;
     /* padding: 0 0 0 30px; */
 }
 .ape{
-    background-color: coral;
+    /* background-color: rgb(243, 240, 239); */
+    height: 100%;
+    margin: 0 auto;
 }
 
-.right {
+/* .right {
     background-color: blueviolet;
-}
+} */
 
 .li-text{
-    background-color: blue;
+    /* background-color: blue; */
+    padding: 0;
+    margin: 0;
+}
+
+.left{
+    border: solid 2px rgb(243, 247, 7); /* style, width, color */
+    
+    margin: 0 150px ;
+}
+
+.dropdown-trigger   {
+    padding: 0;
+    margin: 0;
+}
+strong{
+    font-weight: 600;
+}
+.body-big{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.top-row{
+    border: solid 2px cyan;
+    padding-top: 0px;
 }
